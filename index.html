@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id = "demo"></h1>
+<h1 id = "demo2"></h1> 
+<script>
+
+var myobj = {
+clause: " go out for food ",
+howmany: 3,
+who: "with my friends",
+}
+document.getElementById("demo").innerHTML = typeof(myobj)
+document.getElementById("demo2").innerHTML = "I like to" + myobj.clause + "and eat " + myobj.howmany + " pizzas " + myobj.who
+
+var obj = {
+friendage: 16,
+friendhobby: "going out on dates",
+friendquality:"works hard",
+}
+document.getElementById("demo2").innerHTML = "My friend is " + obj.friendage + ", likes " + obj.friendhobby + " and often " + obj.friendquality
+</script>
+</body>
+</html>
